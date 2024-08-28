@@ -37,7 +37,7 @@ I'm a 23-year-old Web3 enthusiast with a strong focus on the Cosmos ecosystem. M
 
 ## 📈 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&hide_border=true)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ManiBAJPAI22&show_icons=true&hide_border=true)
 
 ## 🔗 Links
 
