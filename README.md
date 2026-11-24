@@ -45,14 +45,13 @@ Contributions to **vLLM AIBrix** (a Kubernetes-native control plane for large-sc
 
 ### Selected projects
 
-| Project | Description | Stack |
+| Project | What it is | Stack |
 | --- | --- | --- |
 | [degenOS](https://github.com/ManiBAJPAI22/degenOS) | Winner, ETHGlobal Bangkok | TypeScript |
-| [vertigo](https://github.com/PrathmeshRanjan/vertigo) | On-chain prediction-market engine — LOPMM pricing across Uniswap v4 and 1inch venues | TypeScript, Solidity |
+| [hl-bot](https://github.com/ManiBAJPAI22/hl-bot) | Autonomous Hyperliquid perpetuals trading agent — FastAPI + scheduled cron routines, SQLite-backed state, and a risk-managed strategy (atomic stop-loss/take-profit, funding-aware entries, weekly self-review) | Python |
+| [nomi](https://github.com/ManiBAJPAI22/nomi) | AI nutrition MVP — photograph your groceries, get a 7-day meal plan, track intake, and reorder missing items (live via Instamart) | TypeScript |
+| [Cross_Chain_Swap](https://github.com/ManiBAJPAI22/Cross_Chain_Swap) | Full-featured cross-chain swap DApp on the Velora SDK — gasless swaps across Ethereum, Optimism, Polygon and Arbitrum | TypeScript |
 | [sift-cli](https://github.com/ManiBAJPAI22/sift-cli) | One-command Solidity audit pipeline (Slither, Aderyn, fuzzing) with LLM triage to cut false positives | Python |
-| [ZK-match](https://github.com/ManiBAJPAI22/ZK-match) | Privacy-preserving biometric matching using zero-knowledge proofs | JavaScript |
-| [Cross-Chain-Aggregator](https://github.com/ManiBAJPAI22/Cross-Chain-Aggregator) | Cross-chain DeFi routing across Optimism and Osmosis via Axelar | JavaScript |
-| [SSM](https://github.com/ManiBAJPAI22/SSM) | Multimodal model training with ONNX export and gRPC serving | Go |
 
 ### Tech
 
