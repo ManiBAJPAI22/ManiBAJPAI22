@@ -3,7 +3,7 @@
 </p>
 <p align="center"><sub><i>Katsushika Hokusai, &ldquo;Fine Wind, Clear Morning&rdquo; (c. 1831) &middot; public domain</i></sub></p>
 
-## Mani Bajpai
+## Mani Bajpai (a.k.a TheCrown )
 
 Backend engineer. I work on the parts of a system that are expensive to get wrong — payments, settlement, and the webhooks, queues and database transactions underneath them. Most of my time goes to the reliability layer people tend to skip: idempotency, row locking, retries with dead-lettering, reconciliation, and the race conditions that only surface in production.
 
