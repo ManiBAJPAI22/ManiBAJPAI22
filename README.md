@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Mani 👋</h1>
+<h1 align="center">Hi, I'm Mani (aka Crown) 👋</h1>
 <h3 align="center">Backend engineer building reliable, money-moving systems — and an open-source contributor</h3>
 
 <p align="center">
