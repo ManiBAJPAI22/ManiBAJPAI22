@@ -1,14 +1,15 @@
-<h1 align="center">Hi, I'm Mani (aka Crown) 👋</h1>
-<h3 align="center">Backend engineer building reliable, money-moving systems — and an open-source contributor</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1F6FEB&height=200&section=header&text=Mani%20Bajpai&fontColor=ffffff&fontSize=56&desc=Backend%20Engineer%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Open%20Source&descSize=18&descAlignY=72&animation=fadeIn" alt="header"/>
+</p>
+
+<h3 align="center">Hi, I'm Mani — aka Crown 👑</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/manibajpai/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://x.com/mBinCrypto"><img src="https://img.shields.io/badge/@mBinCrypto-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
   <a href="mailto:manicode22@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=ManiBAJPAI22&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=ManiBAJPAI22&label=Profile%20views&color=1F6FEB&style=for-the-badge" alt="views"/>
 </p>
-
----
 
 ### 🧩 About
 
@@ -18,11 +19,27 @@
 - 🏅 **5× ETHGlobal** finalist / winner.
 - 🤝 Open-source contributor — **@vllm-project (AIBrix)**, **@kleros**.
 
-### 🚀 Highlights
+### 🌱 Open Source
 
-- **vLLM / AIBrix** (Go, Kubernetes, controller-runtime) — merged a controller-manager startup crash fix ([PR #3540](https://github.com/vllm-project/aibrix/pull/3540)); multiple open PRs and verified, maintainer-triaged bug reports in flight across the gateway and orchestration layers.
-- **Kleros Court v2** (TypeScript, React) — PR adding loading/error states and a hardened price fetch, approved in review ([PR #2104](https://github.com/kleros/kleros-v2/pull/2104)).
-- **ETHGlobal** — [degenOS](https://github.com/ManiBAJPAI22/degenOS), winner @ ETHGlobal Bangkok.
+| Project | Contribution | Status |
+| --- | --- | --- |
+| **vllm-project/aibrix** | [#3540](https://github.com/vllm-project/aibrix/pull/3540) — register a webhook only when its API group is in the scheme | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3540?style=flat-square&logo=github&label=) |
+| **vllm-project/aibrix** | [#3570](https://github.com/vllm-project/aibrix/pull/3570) — let the manager find a prefixed install's webhook objects | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3570?style=flat-square&logo=github&label=) |
+| **vllm-project/aibrix** | [#3578](https://github.com/vllm-project/aibrix/pull/3578) — keep a rollout's drains within `maxUnavailable` | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3578?style=flat-square&logo=github&label=) |
+| **vllm-project/aibrix** | [#3579](https://github.com/vllm-project/aibrix/pull/3579) — cancel a rollout drain when the template is reverted | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3579?style=flat-square&logo=github&label=) |
+| **vllm-project/aibrix** | [8 bugs reported →](https://github.com/vllm-project/aibrix/issues?q=author%3AManiBAJPAI22) — gateway memory DoS, SSRF, autoscaler starvation, rollout drain, standalone-overlay crashes | ![](https://img.shields.io/badge/reported-8%20bugs-1F6FEB?style=flat-square&logo=github&logoColor=white) |
+| **kleros/kleros-v2** | [#2104](https://github.com/kleros/kleros-v2/pull/2104) — loading & error states + hardened price fetch | ![](https://img.shields.io/github/pulls/detail/state/kleros/kleros-v2/2104?style=flat-square&logo=github&label=) |
+
+### 🚀 Featured projects
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**degenOS**](https://github.com/ManiBAJPAI22/degenOS) | 🏆 Winner @ ETHGlobal Bangkok | TypeScript |
+| [**vertigo**](https://github.com/PrathmeshRanjan/vertigo) | On-chain prediction-market engine — LOPMM pricing across Uniswap v4 / 1inch venues | TypeScript · Solidity |
+| [**sift-cli**](https://github.com/ManiBAJPAI22/sift-cli) | One-command Solidity audit pipeline (Slither, Aderyn, fuzzing) with LLM triage to cut false positives | Python |
+| [**ZK-match**](https://github.com/ManiBAJPAI22/ZK-match) | Privacy-preserving biometric matching with Zero-Knowledge Proofs (anti-Sybil) | JavaScript |
+| [**Cross-Chain-Aggregator**](https://github.com/ManiBAJPAI22/Cross-Chain-Aggregator) | Cross-chain DeFi swaps/transfers across Optimism & Osmosis via Axelar, with pathfinding | JavaScript |
+| [**SSM**](https://github.com/ManiBAJPAI22/SSM) | Multimodal (audio + text) model training, ONNX export, gRPC serving, Next.js UI, Prometheus/Grafana | Go |
 
 ### 🛠️ Tech
 
@@ -54,22 +71,27 @@
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 
-### 📌 Featured projects
+### 📊 Stats
 
-| Project | What it is |
-| --- | --- |
-| [**sift-cli**](https://github.com/ManiBAJPAI22/sift-cli) | One-command Solidity audit pipeline (Slither, Aderyn, fuzzing) with LLM triage to cut false positives. |
-| [**degenOS**](https://github.com/ManiBAJPAI22/degenOS) | 🏆 ETHGlobal Bangkok winner. |
-| [**ZK-match**](https://github.com/ManiBAJPAI22/ZK-match) | Privacy-preserving biometric matching with Zero-Knowledge Proofs to resist Sybil attacks. |
-| [**Cross-Chain-Aggregator**](https://github.com/ManiBAJPAI22/Cross-Chain-Aggregator) | Cross-chain DeFi swaps/transfers across Optimism & Osmosis via Axelar, with pathfinding. |
-| [**SSM**](https://github.com/ManiBAJPAI22/SSM) | Multimodal (audio + text) model training, ONNX export, gRPC serving, Next.js UI, Prometheus/Grafana. |
-
-### 📊 GitHub
+<!-- METRICS_PLACEHOLDER -->
 
 <p align="center">
-  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=ManiBAJPAI22&theme=tokyonight&hide_border=true" alt="streak"/>
+  <img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="stats"/>
+  <img width="49%" src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="productive time"/>
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManiBAJPAI22&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="top languages"/>
+  <img width="80%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="languages"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ManiBAJPAI22/ManiBAJPAI22/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ManiBAJPAI22/ManiBAJPAI22/output/github-snake.svg"/>
+    <img width="90%" alt="contribution snake" src="https://raw.githubusercontent.com/ManiBAJPAI22/ManiBAJPAI22/output/github-snake-dark.svg"/>
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,100:0D1117&height=120&section=footer&reversal=true" alt="footer"/>
 </p>
