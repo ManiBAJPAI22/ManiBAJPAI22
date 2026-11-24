@@ -15,7 +15,7 @@
 - 🛠️ **Backend Engineer @WeSee** — payments, refunds, payouts and settlement in **Node.js / TypeScript + PostgreSQL**, integrated with third-party venues and providers.
 - 🌀 Ex-Software Engineer **@GlueX Protocol** — AWS data pipelines indexing 12+ chains.
 - 🧯 I design for failure: **idempotent webhooks & jobs, row locking, retries with dead-lettering, reconciliation.**
-- 🏅 **5× ETHGlobal** finalist / winner.
+- 🏅 **5× ETHGlobal** winner.
 - 🤝 Open-source contributor — **@vllm-project (AIBrix)**, **@kleros**.
 
 ### 🚀 Highlights
