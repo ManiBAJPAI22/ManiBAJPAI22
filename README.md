@@ -3,7 +3,7 @@
 </p>
 <p align="center"><sub><i>Katsushika Hokusai, &ldquo;Fine Wind, Clear Morning&rdquo; (c. 1831) &middot; public domain</i></sub></p>
 
-## Mani Bajpai (a.k.a TheCrown )
+## Mani Bajpai
 
 Backend engineer. I work on the parts of a system that are expensive to get wrong — payments, settlement, and the webhooks, queues and database transactions underneath them. Most of my time goes to the reliability layer people tend to skip: idempotency, row locking, retries with dead-lettering, reconciliation, and the race conditions that only surface in production.
 
@@ -18,6 +18,7 @@ Currently building payments and settlement at **WeSee** (Node.js, TypeScript, Po
 | Project | Contribution | Status |
 | --- | --- | --- |
 | `vllm-project/aibrix` | [#3540](https://github.com/vllm-project/aibrix/pull/3540) — register a webhook only when its API group is in the scheme | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3540?style=flat-square&label=) |
+| `vllm-project/aibrix` | [#3568](https://github.com/vllm-project/aibrix/pull/3568) — document creating the `aibrix-system` namespace before installing components | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3568?style=flat-square&label=) |
 | `vllm-project/aibrix` | [#3570](https://github.com/vllm-project/aibrix/pull/3570) — resolve webhook objects for a prefixed install | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3570?style=flat-square&label=) |
 | `vllm-project/aibrix` | [#3578](https://github.com/vllm-project/aibrix/pull/3578) — keep a rollout's drains within `maxUnavailable` | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3578?style=flat-square&label=) |
 | `vllm-project/aibrix` | [#3579](https://github.com/vllm-project/aibrix/pull/3579) — cancel a rollout drain when the template is reverted | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3579?style=flat-square&label=) |
