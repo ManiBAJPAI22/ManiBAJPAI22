@@ -73,7 +73,9 @@
 
 ### 📊 Stats
 
-<!-- METRICS_PLACEHOLDER -->
+<p align="center">
+  <img src="./github-metrics.svg" alt="metrics"/>
+</p>
 
 <p align="center">
   <img width="49%" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="stats"/>
