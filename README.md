@@ -67,10 +67,9 @@
 ### 📊 GitHub
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ManiBAJPAI22&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="stats"/>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManiBAJPAI22&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="top languages"/>
+  <img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=ManiBAJPAI22&theme=tokyonight&hide_border=true" alt="streak"/>
 </p>
 
 <p align="center">
-  <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=ManiBAJPAI22&theme=tokyonight&hide_border=true" alt="streak"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManiBAJPAI22&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="top languages"/>
 </p>
