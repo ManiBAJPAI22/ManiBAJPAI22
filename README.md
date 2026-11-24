@@ -15,15 +15,33 @@ Currently building payments and settlement at **WeSee** (Node.js, TypeScript, Po
 
 ### Open source
 
-| Project | Contribution | Status |
+Contributions to **vLLM AIBrix** (a Kubernetes-native control plane for large-scale LLM inference) and **Kleros**.
+
+**Pull requests**
+
+| Project | Pull request | Status |
 | --- | --- | --- |
 | `vllm-project/aibrix` | [#3540](https://github.com/vllm-project/aibrix/pull/3540) — register a webhook only when its API group is in the scheme | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3540?style=flat-square&label=) |
-| `vllm-project/aibrix` | [#3568](https://github.com/vllm-project/aibrix/pull/3568) — document creating the `aibrix-system` namespace before installing components | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3568?style=flat-square&label=) |
+| `vllm-project/aibrix` | [#3568](https://github.com/vllm-project/aibrix/pull/3568) — document the `aibrix-system` namespace step | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3568?style=flat-square&label=) |
 | `vllm-project/aibrix` | [#3570](https://github.com/vllm-project/aibrix/pull/3570) — resolve webhook objects for a prefixed install | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3570?style=flat-square&label=) |
 | `vllm-project/aibrix` | [#3578](https://github.com/vllm-project/aibrix/pull/3578) — keep a rollout's drains within `maxUnavailable` | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3578?style=flat-square&label=) |
 | `vllm-project/aibrix` | [#3579](https://github.com/vllm-project/aibrix/pull/3579) — cancel a rollout drain when the template is reverted | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3579?style=flat-square&label=) |
-| `vllm-project/aibrix` | [Reported 8 bugs](https://github.com/vllm-project/aibrix/issues?q=author%3AManiBAJPAI22) — gateway memory DoS, SSRF, autoscaler starvation, rollout drain, standalone-overlay crashes | ![](https://img.shields.io/badge/reported-8-informational?style=flat-square) |
 | `kleros/kleros-v2` | [#2104](https://github.com/kleros/kleros-v2/pull/2104) — loading and error states, hardened price fetch | ![](https://img.shields.io/github/pulls/detail/state/kleros/kleros-v2/2104?style=flat-square&label=) |
+
+**Reported bugs** (`vllm-project/aibrix`) — each reproduced and confirmed by a maintainer
+
+| Issue | Summary | Priority |
+| --- | --- | --- |
+| [#3584](https://github.com/vllm-project/aibrix/issues/3584) | Gateway buffers the entire non-streamed response with no size limit | P1 |
+| [#3585](https://github.com/vllm-project/aibrix/issues/3585) | PodAutoscaler reconcile starved by unreachable pods, so scaling is skipped | P1 |
+| [#3571](https://github.com/vllm-project/aibrix/issues/3571) | A rollout drains more pods than `maxUnavailable` allows | P1 |
+| [#3586](https://github.com/vllm-project/aibrix/issues/3586) | Client `traceparent` reused as the gateway request id, colliding PD load-accounting | P2 |
+| [#3572](https://github.com/vllm-project/aibrix/issues/3572) | A rollout's drain mark survives a rollback | P2 |
+| [#3587](https://github.com/vllm-project/aibrix/issues/3587) | Removing a role (Pooled / InPlaceUpdate) leaks the old role's pods | P2 |
+| [#3565](https://github.com/vllm-project/aibrix/issues/3565) | Standalone model-adapter overlay crash-loops on a renamed webhook | P2 |
+| [#3566](https://github.com/vllm-project/aibrix/issues/3566) | Standalone overlays route to each other's pods via a shared selector | P2 |
+
+<sub>Priority as assessed by an AIBrix maintainer on each issue.</sub>
 
 ### Selected projects
 
