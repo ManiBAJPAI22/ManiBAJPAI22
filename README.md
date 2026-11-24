@@ -83,10 +83,6 @@
 </p>
 
 <p align="center">
-  <img width="80%" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="languages"/>
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ManiBAJPAI22/ManiBAJPAI22/output/github-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ManiBAJPAI22/ManiBAJPAI22/output/github-snake.svg"/>
