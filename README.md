@@ -15,7 +15,7 @@
 - 🛠️ **Backend Engineer @WeSee** — payments, refunds, payouts and settlement in **Node.js / TypeScript + PostgreSQL**, integrated with third-party venues and providers.
 - 🌀 Ex-Software Engineer **@GlueX Protocol** — AWS data pipelines indexing 12+ chains.
 - 🧯 I design for failure: **idempotent webhooks & jobs, row locking, retries with dead-lettering, reconciliation.**
-- 🏅 **5× ETHGlobal** winner.
+- 🏅 **5× ETHGlobal** finalist / winner.
 - 🤝 Open-source contributor — **@vllm-project (AIBrix)**, **@kleros**.
 
 ### 🚀 Highlights
@@ -67,14 +67,10 @@
 ### 📊 GitHub
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ManiBAJPAI22&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="stats"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ManiBAJPAI22&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="stats"/>
   <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManiBAJPAI22&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="top languages"/>
 </p>
 
 <p align="center">
   <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=ManiBAJPAI22&theme=tokyonight&hide_border=true" alt="streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ManiBAJPAI22&theme=tokyonight&no-frame=true&margin-w=6&row=1&column=7" alt="trophies"/>
 </p>
