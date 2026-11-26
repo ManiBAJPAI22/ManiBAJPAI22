@@ -34,16 +34,16 @@ Contributions to **vLLM AIBrix** (a Kubernetes-native control plane for large-sc
 
 | Issue | Summary | Priority | Status |
 | --- | --- | --- | --- |
-| [#3584](https://github.com/vllm-project/aibrix/issues/3584) | Gateway buffers the entire non-streamed response with no size limit | P1 | Confirmed |
-| [#3585](https://github.com/vllm-project/aibrix/issues/3585) | PodAutoscaler reconcile starved by unreachable pods, so scaling is skipped | P1 | Confirmed |
-| [#3571](https://github.com/vllm-project/aibrix/issues/3571) | A rollout drains more pods than `maxUnavailable` allows | P1 | Confirmed |
-| [#3586](https://github.com/vllm-project/aibrix/issues/3586) | Client `traceparent` reused as the gateway request id, colliding PD load-accounting | P2 | Confirmed |
-| [#3572](https://github.com/vllm-project/aibrix/issues/3572) | A rollout's drain mark survives a rollback | P2 | Confirmed |
-| [#3587](https://github.com/vllm-project/aibrix/issues/3587) | Removing a role (Pooled / InPlaceUpdate) leaks the old role's pods | P2 | Confirmed |
-| [#3565](https://github.com/vllm-project/aibrix/issues/3565) | Standalone model-adapter overlay crash-loops on a renamed webhook | P2 | Accepted |
+| [#3584](https://github.com/vllm-project/aibrix/issues/3584) | Gateway buffers the entire non-streamed response with no size limit | P1 | Fixed |
+| [#3585](https://github.com/vllm-project/aibrix/issues/3585) | PodAutoscaler reconcile starved by unreachable pods, so scaling is skipped | P1 | Fix in review |
+| [#3571](https://github.com/vllm-project/aibrix/issues/3571) | A rollout drains more pods than `maxUnavailable` allows | P1 | Fix in review |
+| [#3586](https://github.com/vllm-project/aibrix/issues/3586) | Client `traceparent` reused as the gateway request id, colliding PD load-accounting | P2 | Fixed |
+| [#3572](https://github.com/vllm-project/aibrix/issues/3572) | A rollout's drain mark survives a rollback | P2 | Fix in review |
+| [#3587](https://github.com/vllm-project/aibrix/issues/3587) | Removing a role (Pooled / InPlaceUpdate) leaks the old role's pods | P2 | Fix in review |
+| [#3565](https://github.com/vllm-project/aibrix/issues/3565) | Standalone model-adapter overlay crash-loops on a renamed webhook | P2 | Fix in review |
 | [#3566](https://github.com/vllm-project/aibrix/issues/3566) | Standalone overlays route to each other's pods via a shared selector | P2 | Accepted |
 
-<sub>Priority assessed by an AIBrix maintainer. <b>Accepted</b> = carries the project's <code>triage/accepted</code> label and is assigned to me; <b>Confirmed</b> = reproduced and confirmed by a maintainer, with a fix invited.</sub>
+<sub>Priority assessed by an AIBrix maintainer. <b>Fixed</b> = fix merged; <b>Fix in review</b> = fix PR open and under maintainer review; <b>Accepted</b> = carries the project's <code>triage/accepted</code> label.</sub>
 
 ### Selected projects
 
