@@ -26,6 +26,8 @@ Contributions to **vLLM AIBrix** (a Kubernetes-native control plane for large-sc
 | `vllm-project/aibrix` | [#3570](https://github.com/vllm-project/aibrix/pull/3570) — resolve webhook objects for a prefixed install | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3570?style=flat-square&label=) |
 | `vllm-project/aibrix` | [#3578](https://github.com/vllm-project/aibrix/pull/3578) — keep a rollout's drains within `maxUnavailable` | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3578?style=flat-square&label=) |
 | `vllm-project/aibrix` | [#3579](https://github.com/vllm-project/aibrix/pull/3579) — cancel a rollout drain when the template is reverted | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3579?style=flat-square&label=) |
+| `vllm-project/aibrix` | [#3592](https://github.com/vllm-project/aibrix/pull/3592) — cap the non-streamed gateway response buffer | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3592?style=flat-square&label=) |
+| `vllm-project/aibrix` | [#3595](https://github.com/vllm-project/aibrix/pull/3595) — key PD load trackers by a unique id, not the client `traceparent` | ![](https://img.shields.io/github/pulls/detail/state/vllm-project/aibrix/3595?style=flat-square&label=) |
 | `kleros/kleros-v2` | [#2104](https://github.com/kleros/kleros-v2/pull/2104) — loading and error states, hardened price fetch | ![](https://img.shields.io/github/pulls/detail/state/kleros/kleros-v2/2104?style=flat-square&label=) |
 
 **Reported bugs** (`vllm-project/aibrix`) — every one reproduced and confirmed by a maintainer
